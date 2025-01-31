@@ -1,5 +1,5 @@
 import express, { Router, Request, Response, NextFunction } from "express";
-import { UnitUser } from "./users.interface";
+import { UnitUser } from "./user.interface";
 import { StatusCodes } from "http-status-codes";
 import * as database from "./users.database";
 
